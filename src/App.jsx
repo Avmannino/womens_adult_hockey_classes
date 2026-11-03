@@ -1,5 +1,6 @@
 
 import React from "react";
+import heroImage from "./assets/hero.png";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -29,9 +30,7 @@ const PROGRAM = {
   // PDF must be placed inside the public folder.
   waiverPath: "wings-arena-participant-waiver.pdf",
 
-  // Temporary stock photo. Replace with your Wings Arena photo.
-  heroImage:
-    "https://images.unsplash.com/photo-1587463003251-ef0048d38978?auto=format&fit=crop&w=1600&q=85",
+  heroImage,
 };
 
 const benefits = [
@@ -119,17 +118,6 @@ export default function App() {
               <a className="button button--red" href="#how-it-works">
                 <span>HOW TO JOIN</span>
                 <ArrowRight size={18} aria-hidden="true" />
-              </a>
-
-              <a
-                className="hero__text-link"
-                href={waiverUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FileCheck2 size={19} aria-hidden="true" />
-                VIEW ONE-TIME WAIVER
-                <ArrowUpRight size={15} aria-hidden="true" />
               </a>
             </div>
 
