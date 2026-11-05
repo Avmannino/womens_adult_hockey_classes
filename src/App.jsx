@@ -232,13 +232,6 @@ export default function App() {
               <span>JUST SKATE.</span>
             </h2>
 
-            <p>
-              Our women's classes are drop-in sessions.
-              There's no registration and no long-term
-              commitment required—just come ready for an
-              hour on the ice.
-            </p>
-
             <div className="drop-in-note">
               <ShieldCheck size={21} aria-hidden="true" />
               <span>

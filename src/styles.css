@@ -509,14 +509,6 @@ h1, h2 {
   color: #f06c81;
 }
 
-.how-section__intro > p {
-  font-size: 14px;
-  color: #c7d0dc;
-  line-height: 1.95;
-  max-width: 430px;
-  margin-bottom: 27px;
-}
-
 .drop-in-note {
   display: flex;
   align-items: flex-start;
