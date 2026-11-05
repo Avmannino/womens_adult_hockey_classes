@@ -212,13 +212,13 @@ h1, h2 {
 .hero__footnote {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
-  padding: 12px 24px 12px 12px;
+  gap: 11px;
+  padding: 9px 18px 9px 9px;
   background: #ffffff14;
   border: 1px solid #ffffff2e;
   border-left: 4px solid var(--bright-red);
   color: #fff;
-  font: 700 clamp(20px, 2.2vw, 26px)/1.1 "Barlow Condensed", Impact,
+  font: 700 clamp(17px, 1.8vw, 21px)/1.1 "Barlow Condensed", Impact,
     sans-serif;
   text-transform: uppercase;
   letter-spacing: .5px;
@@ -227,11 +227,11 @@ h1, h2 {
 .hero__footnote-icon {
   display: grid;
   place-items: center;
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: var(--red);
-  flex: 0 0 38px;
+  flex: 0 0 30px;
 }
 
 .hero__image {

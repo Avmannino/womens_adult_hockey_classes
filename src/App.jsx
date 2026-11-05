@@ -112,7 +112,7 @@ export default function App() {
 
             <div className="hero__footnote">
               <span className="hero__footnote-icon">
-                <Check size={20} strokeWidth={3} aria-hidden="true" />
+                <Check size={16} strokeWidth={3} aria-hidden="true" />
               </span>
               Drop-in. No registration required.
             </div>
