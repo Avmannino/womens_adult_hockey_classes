@@ -237,10 +237,11 @@ h1, h2 {
   position: absolute;
   z-index: 3;
   content: "";
-  left: -66px;
+  /* Start far enough left that the skew never exposes the photo at the top. */
+  left: -160px;
   top: -15px;
   bottom: -15px;
-  width: 135px;
+  width: 229px;
   transform: skewX(-12deg);
   background: var(--navy);
   border-right: 10px solid var(--red);
