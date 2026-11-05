@@ -288,7 +288,7 @@ export default function App() {
                 <p>
                   Check in and pay{" "}
                   <strong>$30 per session</strong>{" "}
-                  at the Wings Arena front desk upon arrival.
+                  at the front desk upon arrival.
                 </p>
               </div>
 
