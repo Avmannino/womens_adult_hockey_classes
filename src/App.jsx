@@ -1,6 +1,7 @@
 
 import React from "react";
 import heroImage from "./assets/hero.png";
+import wingsLogo from "./assets/wings-logo.png";
 import {
   ArrowUpRight,
   CalendarDays,
@@ -94,6 +95,12 @@ export default function App() {
 
         <div className="hero__inner layout-width">
           <div className="hero__copy">
+            <img
+              className="hero__logo"
+              src={wingsLogo}
+              alt="Wings Arena"
+            />
+
             <h1 id="page-title">
               WOMEN'S
               <span>ADULT HOCKEY</span>
