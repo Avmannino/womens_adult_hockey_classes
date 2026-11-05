@@ -681,7 +681,11 @@ h1, h2 {
     padding: 0 0 95px;
   }
 
+  /* Pin to the top-left corner, matching the title's 22px gutter. */
   .hero__logo {
+    position: absolute;
+    top: 22px;
+    left: 22px;
     width: 64px;
   }
 
