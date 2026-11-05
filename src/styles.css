@@ -603,6 +603,12 @@ h1, h2 {
     width: 45%;
   }
 
+  .hero__image-shade {
+    background:
+      linear-gradient(90deg, #0b193030, transparent 42%),
+      linear-gradient(0deg, #0713266e, transparent 30%);
+  }
+
   .how-section__inner {
     gap: 60px;
   }
@@ -631,7 +637,6 @@ h1, h2 {
     left: 0;
     width: 100%;
     bottom: auto;
-    opacity: .78;
   }
 
   .hero__image::before {
@@ -642,8 +647,8 @@ h1, h2 {
     background: linear-gradient(
       0deg,
       #0b1930 0%,
-      #0b1930a8 33%,
-      #08152b18 85%
+      #0b193066 30%,
+      transparent 60%
     );
   }
 
@@ -651,8 +656,9 @@ h1, h2 {
     inset: 0;
     background: linear-gradient(
       180deg,
-      #0b1930b8 0%,
-      #0b1930 230px,
+      #0b193026 0%,
+      #0b193059 160px,
+      #0b1930 300px,
       #0b1930 100%
     );
     z-index: 0;
