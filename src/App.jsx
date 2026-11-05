@@ -168,16 +168,9 @@ export default function App() {
       >
         <div className="layout-width">
           <div className="intro-section__heading">
-            <div>
-              <div className="eyebrow">
-                <span className="eyebrow__line" />
-                MORE THAN JUST ICE TIME
-              </div>
-
-              <h2 id="expect-heading">
-                YOUR HOUR. <span>YOUR GAME.</span>
-              </h2>
-            </div>
+            <h2 id="expect-heading">
+              <span>YOUR HOUR.</span> <span>YOUR GAME.</span>
+            </h2>
 
             <div className="intro-section__aside">
               <p>

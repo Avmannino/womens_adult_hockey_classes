@@ -341,27 +341,38 @@ h1, h2 {
 
 .intro-section__heading {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: end;
-  gap: 100px;
+  gap: 28px;
   margin-bottom: 33px;
 }
 
 .intro-section h2 {
-  margin: 18px 0 0;
+  margin: 0;
   font-size: clamp(52px, 5.3vw, 76px);
   color: #0d213b;
 }
 
+/* Keep each phrase intact so the title only breaks between them. */
 .intro-section h2 span {
+  white-space: nowrap;
+}
+
+.intro-section h2 span:last-child {
   color: var(--red);
+}
+
+.intro-section__aside {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px 40px;
 }
 
 .intro-section__aside > p {
   font-size: 14px;
   line-height: 1.95;
   color: #596778;
-  margin: 0 0 22px;
+  margin: 0;
   max-width: 445px;
 }
 
@@ -651,10 +662,6 @@ h1, h2 {
     gap: 60px;
   }
 
-  .intro-section__heading {
-    gap: 40px;
-  }
-
   .quick-fact {
     padding: 24px 14px;
     gap: 12px;
@@ -758,7 +765,6 @@ h1, h2 {
   }
 
   .intro-section__heading {
-    grid-template-columns: 1fr;
     gap: 23px;
   }
 
