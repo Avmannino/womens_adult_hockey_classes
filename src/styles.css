@@ -632,12 +632,6 @@ h1, h2 {
   gap: 10px;
 }
 
-.waiver-section__actions > span {
-  font-size: 11px;
-  color: #7b8796;
-  font-weight: 700;
-}
-
 /* TABLET */
 
 @media (max-width: 1100px) {

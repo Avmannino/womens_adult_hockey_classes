@@ -359,7 +359,6 @@ export default function App() {
             <LinkButton href={PROGRAM.waiverUrl} kind="navy">
               SIGN WAIVER ONLINE
             </LinkButton>
-            <span>Online form • Opens in a new tab</span>
           </div>
         </div>
       </section>
