@@ -2,7 +2,6 @@
 import React from "react";
 import heroImage from "./assets/hero.png";
 import {
-  ArrowRight,
   ArrowUpRight,
   CalendarDays,
   Check,
@@ -111,15 +110,10 @@ export default function App() {
               that makes every skate fun.
             </p>
 
-            <div className="hero__actions">
-              <a className="button button--red" href="#how-it-works">
-                <span>HOW TO JOIN</span>
-                <ArrowRight size={18} aria-hidden="true" />
-              </a>
-            </div>
-
             <div className="hero__footnote">
-              <Check size={16} aria-hidden="true" />
+              <span className="hero__footnote-icon">
+                <Check size={20} strokeWidth={3} aria-hidden="true" />
+              </span>
               Drop-in. No registration required.
             </div>
           </div>

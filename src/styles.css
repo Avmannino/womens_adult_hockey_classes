@@ -209,25 +209,29 @@ h1, h2 {
   margin-bottom: 27px;
 }
 
-.hero__actions {
-  display: flex;
-  align-items: center;
-  gap: 26px;
-  flex-wrap: wrap;
-}
-
 .hero__footnote {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  margin-top: 25px;
-  color: #e0eaf3;
-  font-size: 12px;
-  font-weight: 600;
+  gap: 14px;
+  padding: 12px 24px 12px 12px;
+  background: #ffffff14;
+  border: 1px solid #ffffff2e;
+  border-left: 4px solid var(--bright-red);
+  color: #fff;
+  font: 700 clamp(20px, 2.2vw, 26px)/1.1 "Barlow Condensed", Impact,
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .5px;
 }
 
-.hero__footnote svg {
-  color: #ff6579;
+.hero__footnote-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--red);
+  flex: 0 0 38px;
 }
 
 .hero__image {
@@ -835,10 +839,6 @@ h1, h2 {
 
   .hero h1 {
     font-size: 65px;
-  }
-
-  .hero__actions {
-    gap: 22px;
   }
 
   .quick-fact {
