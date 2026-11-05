@@ -7,7 +7,6 @@ import {
   CalendarDays,
   Check,
   Clock3,
-  Download,
   Dumbbell,
   FileCheck2,
   Heart,
@@ -27,8 +26,8 @@ const PROGRAM = {
   address: "5 Barry Place, Stamford, CT 06902",
   email: "info@wingsarena.com",
 
-  // PDF must be placed inside the public folder.
-  waiverPath: "wings-arena-participant-waiver.pdf",
+  waiverUrl:
+    "https://tms.ezfacility.com/OnlineRegistrations/Register.aspx?CompanyID=8390&GroupID=3900532",
 
   heroImage,
 };
@@ -79,8 +78,6 @@ function LinkButton({
 }
 
 export default function App() {
-  const waiverUrl = `${import.meta.env.BASE_URL}${PROGRAM.waiverPath}`;
-
   return (
     <main className="womens-hockey-page" id="top">
       {/* HERO */}
@@ -276,18 +273,16 @@ export default function App() {
               <div>
                 <h3>Complete Your Waiver</h3>
                 <p>
-                  Download and complete the participant waiver
-                  before arriving. Bring it to the front desk
-                  on your first visit. It only needs to be
-                  completed once.
+                  Sign the participant waiver online before
+                  arriving. It only needs to be completed once.
                 </p>
                 <a
-                  href={waiverUrl}
+                  href={PROGRAM.waiverUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="step__link"
                 >
-                  Open waiver PDF
+                  Sign waiver online
                   <ArrowUpRight size={15} aria-hidden="true" />
                 </a>
               </div>
@@ -360,23 +355,17 @@ export default function App() {
             </h2>
 
             <p>
-              Download, print, and complete the Wings Arena
-              waiver before your first class, then bring
-              it to the front desk. You only need to
-              complete it once.
+              Sign the Wings Arena participant waiver online
+              before your first class. Nothing to print or
+              bring—you only need to complete it once.
             </p>
           </div>
 
           <div className="waiver-section__actions">
-            <LinkButton
-              href={waiverUrl}
-              icon={Download}
-              download
-              kind="navy"
-            >
-              DOWNLOAD WAIVER
+            <LinkButton href={PROGRAM.waiverUrl} kind="navy">
+              SIGN WAIVER ONLINE
             </LinkButton>
-            <span>PDF • 2 pages</span>
+            <span>Online form • Opens in a new tab</span>
           </div>
         </div>
       </section>
