@@ -718,6 +718,36 @@ h1, h2 {
     height: 13px;
   }
 
+  /* Scale the day and time with the viewport so they share one line. */
+  .class-times {
+    gap: 12px;
+    padding: 16px 18px 16px 14px;
+  }
+
+  .class-times__icon {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+  }
+
+  .class-times__icon svg {
+    width: 21px;
+    height: 21px;
+  }
+
+  .class-times__when {
+    flex-wrap: nowrap;
+    gap: 12px;
+  }
+
+  .class-times__when strong {
+    font-size: clamp(16px, calc((100vw - 160px) / 10.5), 30px);
+  }
+
+  .class-times__divider {
+    height: 22px;
+  }
+
   .hero__subtext {
     font-size: 13px;
   }
@@ -794,17 +824,6 @@ h1, h2 {
 @media (max-width: 430px) {
   .hero__inner {
     padding-top: 229px;
-  }
-
-  .class-times {
-    gap: 14px;
-    padding: 18px 20px 18px 16px;
-  }
-
-  .class-times__icon {
-    width: 46px;
-    height: 46px;
-    flex-basis: 46px;
   }
 
   .hero h1 {
