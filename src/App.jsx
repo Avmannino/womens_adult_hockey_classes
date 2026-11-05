@@ -44,7 +44,7 @@ const benefits = [
     icon: Dumbbell,
     title: "Get a Great Workout",
     copy:
-      "Keep moving with fun, energetic drills and small-area games that get your heart rate up.",
+      "Keep moving with energetic drills and small-area games that get your heart rate up.",
   },
   {
     number: "03",
@@ -106,8 +106,7 @@ export default function App() {
 
             <p className="hero__subtext">
               One-hour, coach-led hockey sessions built around skill
-              development, a great workout, and a welcoming group
-              that makes every skate fun.
+              development, a great workout, and a welcoming group.
             </p>
 
             <div className="hero__footnote">
