@@ -524,6 +524,10 @@ h1, h2 {
   margin-top: 36px;
 }
 
+.how-section__waiver .button {
+  width: min(100%, 320px);
+}
+
 .steps {
   display: flex;
   flex-direction: column;
