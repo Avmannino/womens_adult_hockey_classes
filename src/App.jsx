@@ -34,21 +34,18 @@ const PROGRAM = {
 
 const benefits = [
   {
-    number: "01",
     icon: Waves,
     title: "Build Your Skills",
     copy:
       "Work on skating, passing, stick-handling, and shooting with exercises led by a Wings Arena hockey coach.",
   },
   {
-    number: "02",
     icon: Dumbbell,
     title: "Get a Great Workout",
     copy:
       "Keep moving with energetic drills and small-area games that get your heart rate up.",
   },
   {
-    number: "03",
     icon: UsersRound,
     title: "Find Your Crew",
     copy:
@@ -204,14 +201,11 @@ export default function App() {
 
           <div className="benefit-grid">
             {benefits.map(
-              ({ number, icon: Icon, title, copy }) => (
-                <article className="benefit" key={number}>
+              ({ icon: Icon, title, copy }) => (
+                <article className="benefit" key={title}>
                   <div className="benefit__top">
                     <span className="benefit__icon">
                       <Icon size={29} aria-hidden="true" />
-                    </span>
-                    <span className="benefit__number">
-                      {number}
                     </span>
                   </div>
 

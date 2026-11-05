@@ -437,11 +437,6 @@ h1, h2 {
   color: #b7223a;
 }
 
-.benefit__number {
-  font: 800 33px/1 "Barlow Condensed", Impact, sans-serif;
-  color: #e3e7ec;
-}
-
 .benefit h3 {
   font: 800 29px/1.08 "Barlow Condensed", Impact, sans-serif;
   text-transform: uppercase;
