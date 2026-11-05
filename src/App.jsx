@@ -244,6 +244,12 @@ export default function App() {
                 </span>
               </span>
             </div>
+
+            <div className="how-section__waiver">
+              <LinkButton href={PROGRAM.waiverUrl}>
+                SIGN WAIVER ONLINE
+              </LinkButton>
+            </div>
           </div>
 
           <div className="steps">
@@ -310,41 +316,6 @@ export default function App() {
                 aria-hidden="true"
               />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* WAIVER */}
-      <section
-        className="waiver-section"
-        aria-labelledby="waiver-heading"
-      >
-        <div className="layout-width waiver-section__inner">
-          <div className="waiver-section__symbol">
-            <FileCheck2 size={44} aria-hidden="true" />
-          </div>
-
-          <div className="waiver-section__copy">
-            <div className="eyebrow">
-              <span className="eyebrow__line" />
-              BEFORE YOUR FIRST VISIT
-            </div>
-
-            <h2 id="waiver-heading">
-              ONE-TIME PARTICIPANT WAIVER
-            </h2>
-
-            <p>
-              Sign the Wings Arena participant waiver online
-              before your first class. Nothing to print or
-              bring—you only need to complete it once.
-            </p>
-          </div>
-
-          <div className="waiver-section__actions">
-            <LinkButton href={PROGRAM.waiverUrl} kind="navy">
-              SIGN WAIVER ONLINE
-            </LinkButton>
           </div>
         </div>
       </section>
