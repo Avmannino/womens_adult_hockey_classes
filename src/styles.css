@@ -483,6 +483,12 @@ h1, h2 {
   font-size: clamp(55px, 5vw, 76px);
   margin: 23px 0 40px;
   line-height: .91;
+  text-align: center;
+}
+
+/* Header, drop-in card, and waiver button share one centered column. */
+.how-section__intro {
+  max-width: 420px;
 }
 
 .how-section h2 span {
@@ -512,11 +518,9 @@ h1, h2 {
   color: white;
 }
 
-/* Matches the drop-in card's width so the button centers beneath it. */
 .how-section__waiver {
   display: flex;
   justify-content: center;
-  max-width: 420px;
   margin-top: 36px;
 }
 
